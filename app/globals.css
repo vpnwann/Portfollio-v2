@@ -61,3 +61,22 @@ body {
   font-size: 16px;
 }
 
+
+@media only screen and (max-width: 440px) {
+  .rxo {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .cvc {
+   
+  }
+}
+
+
+@media only screen and (max-width: 300px) {
+  .xcv {
+    margin-left: 40%;
+  }
+}
