@@ -68,9 +68,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 400px) {
   .cvc {
-   
+   font-size: 30px;
   }
 }
 
@@ -85,3 +85,4 @@ body {
     display: none;
   }
 }
+

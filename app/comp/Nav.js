@@ -12,10 +12,12 @@ export default function Nav() {
     };
   return (
     <div>
+       
             {/* Navbar */}
             <nav className=" p-1">
+              
                 <div className="container mx-auto flex  lg:flex-row justify-between items-center">
-                  <Link href="/">   <div className=  "  cvc text-white font-bold text-3xl mb-4 lg:mb-0 hover:text-orange-600 hover:cursor-pointer">NS </div></Link>
+                <Link href="/">   <div  style={{fontFamily:"Londrina Outline"}} className=  "  cvc text-white font-bold text-3xl mb-4 font-mono typing-text  mt-9   hover:text-orange-600 ">NS </div></Link>
 
                     
 
@@ -26,18 +28,8 @@ export default function Nav() {
              
 
                         <ul className="flex justify-around gap-9 m-3">
-        <li className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faHome} size="sm" />
-        </li>
-        <li className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faUser} size="sm" />
-        </li>
-        <li className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faCog} size="sm" />
-        </li>
-        <li className="text-white hover:text-gray-400">
-          <FontAwesomeIcon icon={faEnvelope} size="sm" />
-        </li>
+        
+        
       </ul>
 
 
