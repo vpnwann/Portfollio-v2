@@ -17,7 +17,7 @@ export default function Nav() {
             <nav className=" p-1">
               
                 <div className="container mx-auto flex  lg:flex-row justify-between items-center">
-                <Link href="/">   <div  style={{fontFamily:"Londrina Outline"}} className=  "  cvc text-white font-bold text-3xl mb-4 font-mono typing-text  mt-9   hover:text-orange-600 ">NS </div></Link>
+                <Link href="/">   <div  style={{fontFamily:"Londrina Outline"}} className=  "  cvc text-white font-bold text-3xl mb-4 font-mono typing-text  mt-9 ml-5  hover:text-orange-600 ">NS </div></Link>
 
                     
 
